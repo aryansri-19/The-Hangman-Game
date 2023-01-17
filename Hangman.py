@@ -15,7 +15,7 @@ def hangman(counter):
     else:
         print(" _____\n |  |\n | ( )\n | /|\ \n | / \\\n | ")
 
-#The actual game
+#The actual game function
 def game():
     print("Starting the game......\n\nThe word is - ", end="")
     words = []
